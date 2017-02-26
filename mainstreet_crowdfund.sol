@@ -179,7 +179,7 @@ contract MainstreetCrowdfund {
         totalETH += msg.value;
 
         // Calculate MIT purchased directly in this transaction.
-        uint MIT = msg.value * 10;   // $1 / MIT based on $10 / ETH value
+        uint MIT = msg.value * 12;   // $1 / MIT based on $12 / ETH value
 
         // Calculate time-based bonus.
         if (block.timestamp - start < 2 weeks) {
